@@ -16,7 +16,7 @@ bot = commands.Bot(command_prefix='$', description='Price Bot')
 
 @bot.event
 async def on_ready():
-	print("Live Price Bot Started")
+	print("Teloscoin Price Bot Started")
 	print("Bot username: ", bot.user.name)
 	print("Bot id: ", bot.user.id)
 	await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="TELOS Price"))
